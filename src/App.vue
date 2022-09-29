@@ -3,9 +3,12 @@
 </template>
 
 <script>
-import { defineComponent } from 'vue'
+import { defineComponent } from "vue";
+
+window.location.reload(true);
+console.log(window.location.reload(true));
 
 export default defineComponent({
-  name: 'App'
-})
+  name: "App",
+});
 </script>
